@@ -29,6 +29,7 @@ def pytest(line, cell):
                 if "get_ipython" not in c
                 and "@register" not in c
                 and not re.match(r"^assert .*", c)
+                and not re.match(r"^print .*", c)
             )
         )
         f.write("\n{}\n".format(cell))
