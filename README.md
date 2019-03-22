@@ -5,6 +5,14 @@
 The code defines cell magic %%pytest evaluates
 the current cell as a test case
 
+## Install
+
+~~~
+$ pip install jupyter-pytest
+~~~
+
+## Basic usage
+
 ~~~
 def foo():
     return True
@@ -43,4 +51,6 @@ E        +  where False = bar()
 /tmp/test_j0xocmx9.py:10: AssertionError
 1 failed in 0.12 seconds
 ~~~
+
+
 
