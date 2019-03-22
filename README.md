@@ -11,11 +11,13 @@ def foo():
 
 def bar():
     return False
+~~~
 
 ~~~
 %%pytest
 assert foo()
 ~~~
+
 ~~~
 .
 [100%]
@@ -26,6 +28,7 @@ assert foo()
 %%pytest
 assert bar()
 ~~~
+
 ~~~
 F
 [100%]
@@ -39,6 +42,5 @@ E        +  where False = bar()
 
 /tmp/test_j0xocmx9.py:10: AssertionError
 1 failed in 0.12 seconds
-
 ~~~
 
