@@ -2,7 +2,7 @@
 
 ## EXPERIMENTAL
 
-The code defines cell magic %%pytest evaluates
+The code defines cell magic `%%pytest` which evaluates
 the current cell as a test case
 
 ## Install
@@ -12,6 +12,12 @@ $ pip install jupyter-pytest
 ~~~
 
 ## Basic usage
+
+In a Jupyter notebook
+
+~~~
+%load_ext jupytest
+~~~
 
 ~~~
 def foo():
