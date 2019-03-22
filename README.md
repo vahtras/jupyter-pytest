@@ -1,4 +1,4 @@
-# pytest
+# jupyter-pytest
 
 ## EXPERIMENTAL
 
