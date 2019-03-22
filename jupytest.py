@@ -7,7 +7,7 @@ def load_ipython_extension(ipython):
 
 
 @register_cell_magic
-def pytest(line, cell):
+def pytest_function(line, cell):
     """
     Save previous cells with function definitions i
     and current cell as a test case
@@ -40,7 +40,7 @@ def pytest(line, cell):
 
 
 @register_cell_magic
-def verify(line, cell):
+def pytest(line, cell):
     """
     Save previous cells with function definitions i
     and current cell as a test case
